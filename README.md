@@ -117,8 +117,12 @@ GCVI = 0.30(Overall Employment Score)
 
 All components will be normalized before aggregation. Sensitivity analysis will be used to test whether results are stable under alternative weighting schemes. Principal Component Analysis may also be explored as a data-driven comparison.
 
-## License
+## License and Dataset Attribution
 
 **Copyright (c) 2026 Kumaran Sundaram.**
 
-The analysis code, notebooks, figures, and original project documentation in this repository are licensed under the MIT License. The source dataset is provided by the Ministry of Education through data.gov.sg and is subject to the Singapore Open Data Licence version 1.0. The dataset licence remains governed by data.gov.sg and is not replaced by the MIT License used for this repository.
+The analysis code, notebooks, figures, and original project documentation in this repository are licensed under the MIT License.
+
+The source dataset is provided by the Ministry of Education through data.gov.sg and is subject to the Singapore Open Data Licence version 1.0. The dataset licence remains governed by data.gov.sg and is not replaced by the MIT License used for this repository.
+
+Contains information from the Graduate Employment Survey - NTU, NUS, SIT, SMU, SUSS & SUTD dataset accessed from data.gov.sg, which is made available under the terms of the Singapore Open Data Licence version 1.0.
