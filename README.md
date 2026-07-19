@@ -1,2 +1,124 @@
-# QM640_GES_Capstone
-QM640_GES_Data Analytics Capstone - Graduate Employment and Salary Outcomes in Singapore-Data Analytics Capstone project -MS(AIML)  Walsh College
+# QM640 GES Capstone
+
+## Project Title
+
+Data-Driven Analysis and Predictive Modeling of Graduate Employment and Salary Outcomes in Singapore
+
+## Author
+
+Kumaran Sundaram  
+Walsh College  
+QM640: Data Analytics Capstone  
+Mentor: Prof. Sharath Srivatsa  
+Term 3, 2026
+
+## Project Overview
+
+This repository supports the QM640 Data Analytics Capstone project titled **Data-Driven Analysis and Predictive Modeling of Graduate Employment and Salary Outcomes in Singapore**.
+
+The project analyzes Singapore graduate employment and salary outcomes using the official Graduate Employment Survey dataset published by the Ministry of Education through data.gov.sg. The study examines graduate outcomes at the programme level and focuses on employment rates, full-time permanent employment, salary indicators, salary spread, stability, and programme-level trends.
+
+The project follows a complete data analytics flow:
+
+1. Descriptive analytics to understand employment and salary trends over time.
+2. Diagnostic analytics to test differences across universities and degree programmes.
+3. Regression and feature-importance analysis to identify key drivers of salary and career value.
+4. Machine learning classification to predict high-employment, high-salary, and high-career-value programmes.
+5. Clustering and segmentation to group degree programmes into meaningful employability-salary profiles.
+
+## Problem Statement
+
+Graduate outcome data is often interpreted using isolated indicators such as median salary or overall employment rate. However, graduate career outcomes are multidimensional. A degree programme may have high overall employment but lower full-time permanent employment, or high median salary but wider salary spread or higher year-to-year volatility.
+
+This project addresses that gap by developing a data-driven decision-support framework that jointly analyzes employment, salary, stability, prediction, and segmentation using official Singapore programme-level graduate outcome data.
+
+## Data Source
+
+The primary dataset is:
+
+**Graduate Employment Survey - NTU, NUS, SIT, SMU, SUSS & SUTD**  
+Publisher: Ministry of Education, Singapore  
+Source: data.gov.sg  
+Dataset URL: https://data.gov.sg/datasets/d_3c55210de27fcccda2ed0c63fdd2b352/view
+
+The dataset contains programme-level graduate employment and salary outcomes for Singapore autonomous universities. The downloaded CSV contains 1,550 programme-year observations before cleaning and 12 columns.
+
+## Important Note About the Dataset
+
+The source dataset is provided by the Ministry of Education through data.gov.sg. The dataset is made available under the terms of the Singapore Open Data Licence version 1.0.
+
+The MIT License in this repository applies only to the analysis code, notebooks, and original project materials created for this capstone. It does not replace or override the licence terms of the original dataset.
+
+Users should refer to the original data.gov.sg dataset page and the Singapore Open Data Licence for the permitted use of the dataset.
+
+## Attribution Statement
+
+Contains information from the **Graduate Employment Survey - NTU, NUS, SIT, SMU, SUSS & SUTD** dataset accessed from data.gov.sg, which is made available under the terms of the Singapore Open Data Licence version 1.0.
+
+Dataset source:  
+https://data.gov.sg/datasets/d_3c55210de27fcccda2ed0c63fdd2b352/view
+
+Licence source:  
+https://data.gov.sg/open-data-licence
+
+## Research Questions
+
+### RQ1
+How have employment and salary outcomes evolved across Singapore university degree programmes from 2013 to 2025?
+
+### RQ2
+Do employment and salary outcomes differ significantly across universities and degree programmes?
+
+### RQ3
+Which factors contribute most to graduate salary outcomes and graduate career value across Singapore university programmes?
+
+### RQ4
+Can machine learning models accurately predict high-employment, high-salary, and high-career-value degree programmes?
+
+### RQ5
+Can degree programmes be segmented into meaningful employability-salary profiles to support student, university, and policy decision-making?
+
+## Planned Analytical Approach
+
+The project will use the following methods:
+
+- Data cleaning and feature engineering
+- Descriptive statistics
+- Trend analysis
+- Year-over-year change
+- Compound annual growth rate
+- ANOVA and Kruskal-Wallis tests
+- Post-hoc testing
+- Correlation analysis
+- Multiple linear regression
+- Feature-importance analysis
+- Graduate Career Value Index construction
+- Logistic regression
+- Decision tree classification
+- Random forest classification
+- Optional gradient boosting
+- K-means clustering
+- Hierarchical clustering
+- Principal Component Analysis
+- Dashboard-style visual summaries
+
+## Graduate Career Value Index
+
+The Graduate Career Value Index, or GCVI, is a constructed decision-support measure that combines employment, full-time permanent employment, salary, and stability indicators.
+
+A starting formulation is:
+
+```text
+GCVI = 0.30(Overall Employment Score)
+     + 0.30(Full-Time Permanent Employment Score)
+     + 0.25(Median Salary Score)
+     + 0.15(Stability Score)
+```
+
+All components will be normalized before aggregation. Sensitivity analysis will be used to test whether results are stable under alternative weighting schemes. Principal Component Analysis may also be explored as a data-driven comparison.
+
+## License
+
+**Copyright (c) 2026 Kumaran Sundaram.**
+
+The analysis code, notebooks, figures, and original project documentation in this repository are licensed under the MIT License. The source dataset is provided by the Ministry of Education through data.gov.sg and is subject to the Singapore Open Data Licence version 1.0. The dataset licence remains governed by data.gov.sg and is not replaced by the MIT License used for this repository.
