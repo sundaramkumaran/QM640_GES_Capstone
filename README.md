@@ -80,26 +80,13 @@ Can degree programmes be segmented into meaningful employability-salary profiles
 
 ## Planned Analytical Approach
 
-The project will use the following methods:
-
 - Data cleaning and feature engineering
-- Descriptive statistics
-- Trend analysis
-- Year-over-year change
-- Compound annual growth rate
+- Descriptive statistics and trend analysis
 - ANOVA and Kruskal-Wallis tests
-- Post-hoc testing
-- Correlation analysis
-- Multiple linear regression
-- Feature-importance analysis
+- Correlation and multiple linear regression
 - Graduate Career Value Index construction
-- Logistic regression
-- Decision tree classification
-- Random forest classification
-- Optional gradient boosting
-- K-means clustering
-- Hierarchical clustering
-- Principal Component Analysis
+- Logistic regression, decision tree, and random forest classification
+- K-means clustering, hierarchical clustering, and PCA visualization
 - Dashboard-style visual summaries
 
 ## Graduate Career Value Index
@@ -116,6 +103,75 @@ GCVI = 0.30(Overall Employment Score)
 ```
 
 All components will be normalized before aggregation. Sensitivity analysis will be used to test whether results are stable under alternative weighting schemes. Principal Component Analysis may also be explored as a data-driven comparison.
+
+The GCVI is not intended to be a definitive ranking of programme quality. It is used as a structured decision-support measure for comparing multidimensional graduate outcomes.
+
+## Repository Structure
+
+```text
+QM640_GES_Capstone/
+├── data/
+│   ├── raw/
+│   │   └── graduate_employment_survey.csv
+│   └── processed/
+│       └── ges_cleaned.csv
+├── notebooks/
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_eda_trends.ipynb
+│   ├── 03_statistical_tests.ipynb
+│   ├── 04_regression_and_gcvi.ipynb
+│   ├── 05_machine_learning.ipynb
+│   └── 06_clustering.ipynb
+├── outputs/
+│   ├── figures/
+│   └── tables/
+├── dashboard/
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
+
+## Main Dataset Fields
+
+The main fields include:
+
+- `year`
+- `university`
+- `school`
+- `degree`
+- `employment_rate_overall`
+- `employment_rate_ft_perm`
+- `basic_monthly_mean`
+- `basic_monthly_median`
+- `gross_monthly_mean`
+- `gross_monthly_median`
+- `gross_mthly_25_percentile`
+- `gross_mthly_75_percentile`
+
+Additional derived fields may include:
+
+- `salary_iqr`
+- `salary_premium`
+- `employment_premium`
+- `stability_score`
+- `career_value_index`
+- `high_employment`
+- `high_salary`
+- `high_career_value`
+
+## Tools and Libraries
+
+Python, Jupyter Notebook, pandas, NumPy, matplotlib, scikit-learn, scipy, statsmodels, and openpyxl.
+
+## Reproducibility
+
+The repository is organized to support reproducibility. Raw data will be stored separately from processed data. Analysis notebooks will be numbered in the expected workflow order. Output figures and tables will be stored separately to allow easy review and reuse in the final report or presentation.
+
+## Limitations
+
+This project uses aggregated programme-level data. It does not contain individual student-level information such as grades, internships, socioeconomic background, job-search effort, or personal skills. Therefore, the results should not be interpreted as predicting individual student employability.
+
+The findings will be interpreted only at the programme level.
 
 ## License and Dataset Attribution
 
