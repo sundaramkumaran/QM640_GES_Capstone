@@ -114,17 +114,14 @@ QM640_GES_Capstone/
 │   ├── raw/
 │   │   └── graduate_employment_survey.csv
 │   └── processed/
-│       └── ges_cleaned.csv
+│       ├── ges_cleaned.csv
+│       └── ges_clustered_programme_profiles.csv
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_eda_trends.ipynb
-│   ├── 03_statistical_tests.ipynb
-│   ├── 04_regression_and_gcvi.ipynb
-│   ├── 05_machine_learning.ipynb
-│   └── 06_clustering.ipynb
+│   └── QM640_GES_Interim_Master_Analysis.ipynb
 ├── outputs/
 │   ├── figures/
 │   └── tables/
+│   └── report_package/
 ├── dashboard/
 ├── README.md
 ├── requirements.txt
