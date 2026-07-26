@@ -1,0 +1,13 @@
+Column Number,Original Column Name
+1,year
+2,university
+3,school
+4,degree
+5,employment_rate_overall
+6,employment_rate_ft_perm
+7,basic_monthly_mean
+8,basic_monthly_median
+9,gross_monthly_mean
+10,gross_monthly_median
+11,gross_mthly_25_percentile
+12,gross_mthly_75_percentile

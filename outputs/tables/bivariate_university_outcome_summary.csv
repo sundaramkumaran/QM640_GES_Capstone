@@ -1,0 +1,7 @@
+university,record_count,complete_case_records,median_overall_employment,median_ft_perm_employment,median_gross_salary,median_salary_iqr,median_career_value_index,complete_case_percent
+Singapore University of Technology and Design,37,32,92.2,87.05,4000.0,870.0,0.7341064201292528,86.49
+Singapore Management University,150,150,95.1,91.3,4000.0,1200.0,0.7583440045174497,100.0
+National University of Singapore,478,433,92.6,86.4,3700.0,750.0,0.7178195484793147,90.59
+Nanyang Technological University,479,441,90.2,79.7,3500.0,700.0,0.6725225930057582,92.07
+Singapore Institute of Technology,355,342,92.6,84.5,3500.0,600.0,0.7158939406524363,96.34
+Singapore University of Social Sciences,51,47,91.1,80.9,3500.0,600.0,0.6900030550426367,92.16

@@ -1,0 +1,7 @@
+Area,Limitation,Impact,Next Step
+Data granularity,The dataset is aggregated at programme-year level.,Individual graduate-level prediction cannot be claimed.,State clearly that all findings are programme-level.
+Causality,The analysis is observational.,Regression and classification results are associational.,Avoid causal wording such as 'causes' or 'leads to'.
+Missing values,105 records have missing key outcome values.,"Complete-case analysis uses 1,445 records.",Report missing-value handling clearly.
+Class imbalance,High-outcome classes represent about 25% of records.,Accuracy alone is not sufficient.,"Report F1, recall, precision, ROC AUC, and baseline comparison."
+Feature leakage,Preliminary classification used some engineered variables related to the targets.,Part 12 results are optimistic.,Use Part 13 leakage-controlled results as the main defensible classification evidence.
+Clustering interpretation,Clusters are descriptive groups.,"Cluster labels are profiles, not causal categories.","Use cluster profiles for decision support, not ranking."

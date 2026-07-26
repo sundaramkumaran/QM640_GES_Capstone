@@ -1,0 +1,10 @@
+Column,Original Data Type,Non-Numeric Values Found,Sample Non-Numeric Values
+year,int64,0,[]
+employment_rate_overall,object,105,"['na', 'N.A.']"
+employment_rate_ft_perm,object,105,"['na', 'N.A.']"
+basic_monthly_mean,object,105,"['na', 'N.A.']"
+basic_monthly_median,object,105,"['na', 'N.A.']"
+gross_monthly_mean,object,105,"['na', 'N.A.']"
+gross_monthly_median,object,105,"['na', 'N.A.']"
+gross_mthly_25_percentile,object,105,"['na', 'N.A.']"
+gross_mthly_75_percentile,object,105,"['na', 'N.A.']"

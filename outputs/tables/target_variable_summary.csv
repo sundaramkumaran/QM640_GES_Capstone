@@ -1,0 +1,5 @@
+Target / Outcome Variable,Purpose,Used For
+employment_rate_overall,Primary employment outcome for descriptive and comparative analysis,"RQ1, RQ2, RQ3"
+employment_rate_ft_perm,Stable employment outcome indicator,"RQ1, RQ2, RQ3, GCVI"
+gross_monthly_median,Primary salary outcome,"RQ1, RQ2, RQ3, RQ4, GCVI"
+career_value_index,Composite decision-support outcome,"RQ3, RQ4, RQ5"

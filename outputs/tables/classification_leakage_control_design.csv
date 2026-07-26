@@ -1,0 +1,4 @@
+Design Area,Variables,Reason
+Allowed numeric predictors,year,Contextual time information only
+Allowed categorical predictors,"university, school, degree",Programme descriptors only
+Excluded predictors,"Employment rates, salary variables, salary spread, Career Value Index, engineered outcome components",Excluded to reduce feature leakage from target source variables

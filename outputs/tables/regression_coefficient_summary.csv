@@ -1,0 +1,24 @@
+Model,Target Variable,Feature,Coefficient,Absolute Coefficient
+Model 1: Median Gross Monthly Salary Regression,gross_monthly_median,year,391.58841818474593,391.58841818474593
+Model 1: Median Gross Monthly Salary Regression,gross_monthly_median,salary_iqr,271.1047577471545,271.1047577471545
+Model 1: Median Gross Monthly Salary Regression,gross_monthly_median,university_Singapore University of Social Sciences,-251.46924249423114,251.46924249423114
+Model 1: Median Gross Monthly Salary Regression,gross_monthly_median,university_Singapore University of Technology and Design,182.68242664189117,182.68242664189117
+Model 1: Median Gross Monthly Salary Regression,gross_monthly_median,university_Singapore Institute of Technology,-147.62915832652482,147.62915832652482
+Model 1: Median Gross Monthly Salary Regression,gross_monthly_median,university_Singapore Management University,136.45133713325995,136.45133713325995
+Model 1: Median Gross Monthly Salary Regression,gross_monthly_median,employment_premium,-134.67628052876566,134.67628052876566
+Model 1: Median Gross Monthly Salary Regression,gross_monthly_median,employment_rate_ft_perm,102.13089871209579,102.13089871209579
+Model 1: Median Gross Monthly Salary Regression,gross_monthly_median,university_National University of Singapore,75.312147228581,75.312147228581
+Model 1: Median Gross Monthly Salary Regression,gross_monthly_median,employment_rate_overall,6.839787349368379,6.839787349368379
+Model 1: Median Gross Monthly Salary Regression,gross_monthly_median,university_Nanyang Technological University,4.652489817023785,4.652489817023785
+Model 2: Career Value Index Association Regression,career_value_index,employment_rate_overall,0.05346319050033018,0.05346319050033018
+Model 2: Career Value Index Association Regression,career_value_index,gross_monthly_median,0.036200039737835955,0.036200039737835955
+Model 2: Career Value Index Association Regression,career_value_index,employment_rate_ft_perm,0.034206676420313435,0.034206676420313435
+Model 2: Career Value Index Association Regression,career_value_index,salary_iqr,-0.011934255735937326,0.011934255735937326
+Model 2: Career Value Index Association Regression,career_value_index,employment_premium,-0.011294559564409706,0.011294559564409706
+Model 2: Career Value Index Association Regression,career_value_index,year,2.4458735923299724e-17,2.4458735923299724e-17
+Model 2: Career Value Index Association Regression,career_value_index,university_Singapore University of Social Sciences,-1.3444106938820255e-17,1.3444106938820255e-17
+Model 2: Career Value Index Association Regression,career_value_index,university_Singapore Institute of Technology,1.3444106938820255e-17,1.3444106938820255e-17
+Model 2: Career Value Index Association Regression,career_value_index,university_Singapore University of Technology and Design,1.2874900798265365e-17,1.2874900798265365e-17
+Model 2: Career Value Index Association Regression,career_value_index,university_National University of Singapore,-9.324138683375338e-18,9.324138683375338e-18
+Model 2: Career Value Index Association Regression,career_value_index,university_Singapore Management University,-2.656295322589486e-18,2.656295322589486e-18
+Model 2: Career Value Index Association Regression,career_value_index,university_Nanyang Technological University,1.0842021724855044e-18,1.0842021724855044e-18

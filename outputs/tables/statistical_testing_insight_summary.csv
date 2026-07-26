@@ -1,0 +1,4 @@
+Figure/Table Reference,What it Shows,Key Insight,Why it Matters,Decision / Next Step
+Table: statistical_test_results,ANOVA and Kruskal-Wallis test results for university-level differences,"Shows whether employment, salary, and career-value outcomes differ significantly across universities",Directly supports RQ2,Use significant test results to justify post-hoc comparison and interpretation
+Table: statistical_test_pairwise_comparisons,Pairwise university comparisons when overall Kruskal-Wallis test is significant,Identifies which university pairs differ after Bonferroni correction,Adds detail beyond the overall group test,Use pairwise results carefully as preliminary evidence
+Boxplot figures,Distribution of outcomes by university,"Shows spread, median differences, and possible outliers by university",Supports interpretation of statistical test results,Use boxplots together with p-values and effect sizes

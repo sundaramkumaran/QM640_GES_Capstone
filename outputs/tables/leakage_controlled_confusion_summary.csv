@@ -1,0 +1,25 @@
+Target Variable,Split Strategy,Model,True Negative,False Positive,False Negative,True Positive
+high_employment,Random stratified context-only split,Baseline Majority Class,271,0,91,0
+high_employment,Random stratified context-only split,Logistic Regression,219,52,35,56
+high_employment,Random stratified context-only split,Decision Tree,122,149,13,78
+high_employment,Random stratified context-only split,Random Forest,187,84,27,64
+high_employment,Degree-grouped context-only split,Baseline Majority Class,292,0,101,0
+high_employment,Degree-grouped context-only split,Logistic Regression,221,71,35,66
+high_employment,Degree-grouped context-only split,Decision Tree,161,131,21,80
+high_employment,Degree-grouped context-only split,Random Forest,172,120,59,42
+high_salary,Random stratified context-only split,Baseline Majority Class,271,0,91,0
+high_salary,Random stratified context-only split,Logistic Regression,231,40,5,86
+high_salary,Random stratified context-only split,Decision Tree,232,39,24,67
+high_salary,Random stratified context-only split,Random Forest,214,57,9,82
+high_salary,Degree-grouped context-only split,Baseline Majority Class,295,0,98,0
+high_salary,Degree-grouped context-only split,Logistic Regression,249,46,18,80
+high_salary,Degree-grouped context-only split,Decision Tree,256,39,32,66
+high_salary,Degree-grouped context-only split,Random Forest,233,62,19,79
+high_career_value,Random stratified context-only split,Baseline Majority Class,271,0,91,0
+high_career_value,Random stratified context-only split,Logistic Regression,220,51,17,74
+high_career_value,Random stratified context-only split,Decision Tree,236,35,57,34
+high_career_value,Random stratified context-only split,Random Forest,194,77,29,62
+high_career_value,Degree-grouped context-only split,Baseline Majority Class,289,0,104,0
+high_career_value,Degree-grouped context-only split,Logistic Regression,248,41,41,63
+high_career_value,Degree-grouped context-only split,Decision Tree,85,204,15,89
+high_career_value,Degree-grouped context-only split,Random Forest,203,86,52,52

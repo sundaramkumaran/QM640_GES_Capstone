@@ -1,0 +1,4 @@
+cluster,Suggested Cluster Label,Profile Logic
+1,High employment and high salary profile,High overall employment: True; High full-time permanent employment: True; High salary: True; High salary spread: True; High career value: True
+2,High employment stability with moderate salary profile,High overall employment: True; High full-time permanent employment: True; High salary: False; High salary spread: False; High career value: True
+3,Moderate or lower relative outcome profile,High overall employment: False; High full-time permanent employment: False; High salary: False; High salary spread: False; High career value: False

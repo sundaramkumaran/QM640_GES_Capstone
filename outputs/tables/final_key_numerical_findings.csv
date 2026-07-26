@@ -1,0 +1,11 @@
+Finding,Value,Where Used
+Total programme-year records,"1,550",Data description
+Complete-case records,"1,445",Data cleaning and modelling readiness
+Complete-case percentage,93.23%,Data quality
+Study period,2013 to 2024,Scope and RQ1
+Median salary change,"3,100 to 4,400",RQ1
+Significant university-level tests,4/4,RQ2
+Salary regression R²,0.58,RQ3
+Leakage-controlled high-salary F1,0.71,RQ4
+Recommended cluster count,3,RQ5
+Best clustering silhouette score,0.32,RQ5

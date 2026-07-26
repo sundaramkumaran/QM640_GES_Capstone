@@ -1,0 +1,5 @@
+Model Area,What Was Changed,Reason,Relevant RQ
+Leakage-controlled classification,"Employment, salary, salary spread, and Career Value Index component variables were excluded",To reduce target leakage and provide a conservative model validation check,RQ4
+Random stratified context-only split,"Only year, university, school, and degree were used as predictors",Tests whether programme descriptors can classify high-outcome records without outcome variables,RQ4
+Degree-grouped context-only split,Same degree programme is not allowed to appear in both train and test sets,Provides a stricter generalisation check across degree programmes,RQ4
+Preliminary vs leakage-controlled comparison,Part 12 model results were compared with Part 13 conservative results,Shows whether the original model performance was likely optimistic,RQ4

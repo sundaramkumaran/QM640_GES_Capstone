@@ -1,0 +1,3 @@
+Model,Target Variable,Total Records Used,Training Records,Testing Records,MAE,RMSE,R Squared
+Model 1: Median Gross Monthly Salary Regression,gross_monthly_median,1445,1083,362,333.8593190600513,476.8987512017169,0.5809586445023122
+Model 2: Career Value Index Association Regression,career_value_index,1445,1083,362,7.05390319513221e-17,9.919844535655002e-17,1.0

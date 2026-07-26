@@ -1,0 +1,7 @@
+Analysis Stage,Main Output,Key Result,Relevant RQ,Report Use
+Data preparation,Cleaned and feature-engineered dataset,"1,550 records before cleaning; 1,445 complete-case records for key analysis",All RQs,Data description and methodology
+EDA,"Coverage, univariate, bivariate, and multivariate summaries",Salary increased over time; employment stability varied more than overall employment,"RQ1, RQ2, RQ3",Exploratory findings
+Statistical testing,Kruskal-Wallis and pairwise comparisons,Significant university-level differences with modest effect sizes,RQ2,Inferential results
+Regression,Salary regression and Career Value Index diagnostic model,Salary regression achieved R² = 0.58,RQ3,Driver analysis
+Classification,Preliminary and leakage-controlled classification models,Leakage-controlled high-salary model achieved F1 = 0.71,RQ4,Predictive modelling evidence
+Clustering,K-Means programme profile segments,Recommended k = 3; three interpretable employability-salary profiles,RQ5,Segmentation results

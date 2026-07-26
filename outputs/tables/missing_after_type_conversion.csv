@@ -1,0 +1,13 @@
+Column,Data Type After Cleaning,Missing Count,Missing Percent
+year,int64,0,0.0
+university,object,0,0.0
+school,object,0,0.0
+degree,object,0,0.0
+employment_rate_overall,float64,105,6.77
+employment_rate_ft_perm,float64,105,6.77
+basic_monthly_mean,float64,105,6.77
+basic_monthly_median,float64,105,6.77
+gross_monthly_mean,float64,105,6.77
+gross_monthly_median,float64,105,6.77
+gross_mthly_25_percentile,float64,105,6.77
+gross_mthly_75_percentile,float64,105,6.77

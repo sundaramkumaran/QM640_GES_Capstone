@@ -1,0 +1,8 @@
+Variable,VIF,Note
+employment_rate_overall,,VIF calculation could not be completed: No module named 'statsmodels'
+employment_rate_ft_perm,,VIF calculation could not be completed: No module named 'statsmodels'
+employment_premium,,VIF calculation could not be completed: No module named 'statsmodels'
+gross_monthly_median,,VIF calculation could not be completed: No module named 'statsmodels'
+salary_iqr,,VIF calculation could not be completed: No module named 'statsmodels'
+salary_premium,,VIF calculation could not be completed: No module named 'statsmodels'
+stability_score,,VIF calculation could not be completed: No module named 'statsmodels'

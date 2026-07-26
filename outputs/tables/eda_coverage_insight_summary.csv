@@ -1,0 +1,5 @@
+Figure/Table Reference,What it Shows,Key Insight,Why it Matters,Decision / Next Step
+Table: eda_records_by_year,Distribution of programme-year records across years,Shows whether the dataset has consistent year-level coverage,Supports RQ1 trend analysis,Use year-level coverage to interpret employment and salary trends
+Table: eda_records_by_university,Distribution of records across universities,Shows whether some universities contribute more observations than others,Supports RQ2 university-level comparison,Use university record counts when interpreting group comparisons
+Table: eda_records_by_university_year_pivot,University coverage by year,Shows when universities enter or expand in the dataset,Prevents misleading comparison across years,Use this table to explain coverage differences in trend results
+Table: eda_top_schools_by_records,Schools with the highest number of programme-year records,Identifies the most represented schools in the dataset,Helps interpret school-level and programme-level representation,Use school-level coverage as context for later EDA and modelling

@@ -1,0 +1,61 @@
+Outcome,Group A,Group B,Group A Median,Group B Median,Median Difference A_minus_B,Mann-Whitney U Statistic,Raw p-value,Bonferroni Adjusted p-value,Pairwise Decision
+employment_rate_overall,Nanyang Technological University,National University of Singapore,90.2,92.6,-2.3999999999999915,77667.5,1.8023998305547133e-06,2.70359974583207e-05,Statistically significant
+employment_rate_overall,Nanyang Technological University,Singapore Institute of Technology,90.2,92.6,-2.3999999999999915,61919.5,1.6899506342957717e-05,0.0002534925951443658,Statistically significant
+employment_rate_overall,Nanyang Technological University,Singapore Management University,90.2,95.1,-4.8999999999999915,18366.0,3.782259798708407e-16,5.673389698062611e-15,Statistically significant
+employment_rate_overall,Nanyang Technological University,Singapore University of Social Sciences,90.2,91.1,-0.8999999999999915,9267.5,0.23306332917604233,1.0,Not statistically significant
+employment_rate_overall,Nanyang Technological University,Singapore University of Technology and Design,90.2,92.2,-2.0,5312.5,0.019507808088039005,0.2926171213205851,Not statistically significant
+employment_rate_overall,National University of Singapore,Singapore Institute of Technology,92.6,92.6,0.0,72686.0,0.66083172392511,1.0,Not statistically significant
+employment_rate_overall,National University of Singapore,Singapore Management University,92.6,95.1,-2.5,23665.0,7.172382714409941e-07,1.075857407161491e-05,Statistically significant
+employment_rate_overall,National University of Singapore,Singapore University of Social Sciences,92.6,91.1,1.5,11246.0,0.2359867969543782,1.0,Not statistically significant
+employment_rate_overall,National University of Singapore,Singapore University of Technology and Design,92.6,92.2,0.3999999999999915,6573.0,0.6287727423723564,1.0,Not statistically significant
+employment_rate_overall,Singapore Institute of Technology,Singapore Management University,92.6,95.1,-2.5,20082.5,0.0001228634017431562,0.001842951026147343,Statistically significant
+employment_rate_overall,Singapore Institute of Technology,Singapore University of Social Sciences,92.6,91.1,1.5,8847.0,0.26178275201487,1.0,Not statistically significant
+employment_rate_overall,Singapore Institute of Technology,Singapore University of Technology and Design,92.6,92.2,0.3999999999999915,5326.0,0.8030688035377256,1.0,Not statistically significant
+employment_rate_overall,Singapore Management University,Singapore University of Social Sciences,95.1,91.1,4.0,4917.0,4.482363888454529e-05,0.0006723545832681794,Statistically significant
+employment_rate_overall,Singapore Management University,Singapore University of Technology and Design,95.1,92.2,2.8999999999999915,3023.0,0.021346190856166333,0.320192862842495,Not statistically significant
+employment_rate_overall,Singapore University of Social Sciences,Singapore University of Technology and Design,91.1,92.2,-1.1000000000000085,618.5,0.18390714040920675,1.0,Not statistically significant
+employment_rate_ft_perm,Nanyang Technological University,National University of Singapore,79.7,86.4,-6.700000000000003,77374.5,1.223086600462239e-06,1.8346299006933586e-05,Statistically significant
+employment_rate_ft_perm,Nanyang Technological University,Singapore Institute of Technology,79.7,84.5,-4.799999999999997,66385.0,0.004029661270890304,0.06044491906335456,Not statistically significant
+employment_rate_ft_perm,Nanyang Technological University,Singapore Management University,79.7,91.3,-11.599999999999994,17236.5,1.8085944160178485e-18,2.7128916240267728e-17,Statistically significant
+employment_rate_ft_perm,Nanyang Technological University,Singapore University of Social Sciences,79.7,80.9,-1.2000000000000028,10462.5,0.9146327954913775,1.0,Not statistically significant
+employment_rate_ft_perm,Nanyang Technological University,Singapore University of Technology and Design,79.7,87.05,-7.349999999999994,4452.0,0.0004870413350037409,0.007305620025056114,Statistically significant
+employment_rate_ft_perm,National University of Singapore,Singapore Institute of Technology,86.4,84.5,1.9000000000000057,79309.0,0.08879267462373576,1.0,Not statistically significant
+employment_rate_ft_perm,National University of Singapore,Singapore Management University,86.4,91.3,-4.8999999999999915,23577.0,5.586114169874989e-07,8.379171254812484e-06,Statistically significant
+employment_rate_ft_perm,National University of Singapore,Singapore University of Social Sciences,86.4,80.9,5.5,12663.5,0.005879332609026143,0.08818998913539214,Not statistically significant
+employment_rate_ft_perm,National University of Singapore,Singapore University of Technology and Design,86.4,87.05,-0.6499999999999915,6264.0,0.3656647103092119,1.0,Not statistically significant
+employment_rate_ft_perm,Singapore Institute of Technology,Singapore Management University,84.5,91.3,-6.799999999999997,16658.5,5.862592819893246e-10,8.79388922983987e-09,Statistically significant
+employment_rate_ft_perm,Singapore Institute of Technology,Singapore University of Social Sciences,84.5,80.9,3.5999999999999943,9312.5,0.07767681327625131,1.0,Not statistically significant
+employment_rate_ft_perm,Singapore Institute of Technology,Singapore University of Technology and Design,84.5,87.05,-2.549999999999997,4362.5,0.05786674802682713,0.868001220402407,Not statistically significant
+employment_rate_ft_perm,Singapore Management University,Singapore University of Social Sciences,91.3,80.9,10.399999999999991,5589.0,1.4437322719401326e-09,2.165598407910199e-08,Statistically significant
+employment_rate_ft_perm,Singapore Management University,Singapore University of Technology and Design,91.3,87.05,4.25,3051.5,0.016114472223733568,0.2417170833560035,Not statistically significant
+employment_rate_ft_perm,Singapore University of Social Sciences,Singapore University of Technology and Design,80.9,87.05,-6.1499999999999915,407.5,0.0005910830760345733,0.0088662461405186,Statistically significant
+gross_monthly_median,Nanyang Technological University,National University of Singapore,3500.0,3700.0,-200.0,81082.5,0.00011314960702756455,0.0016972441054134682,Statistically significant
+gross_monthly_median,Nanyang Technological University,Singapore Institute of Technology,3500.0,3500.0,0.0,78885.5,0.2680704501296841,1.0,Not statistically significant
+gross_monthly_median,Nanyang Technological University,Singapore Management University,3500.0,4000.0,-500.0,20005.5,4.4839545774395497e-13,6.725931866159324e-12,Statistically significant
+gross_monthly_median,Nanyang Technological University,Singapore University of Social Sciences,3500.0,3500.0,0.0,10952.0,0.5218397601747995,1.0,Not statistically significant
+gross_monthly_median,Nanyang Technological University,Singapore University of Technology and Design,3500.0,4000.0,-500.0,3373.0,7.94082240848468e-07,1.1911233612727021e-05,Statistically significant
+gross_monthly_median,National University of Singapore,Singapore Institute of Technology,3700.0,3500.0,200.0,88355.5,3.6962778174656707e-06,5.544416726198506e-05,Statistically significant
+gross_monthly_median,National University of Singapore,Singapore Management University,3700.0,4000.0,-300.0,24574.0,8.712534409305886e-06,0.0001306880161395883,Statistically significant
+gross_monthly_median,National University of Singapore,Singapore University of Social Sciences,3700.0,3500.0,200.0,12292.0,0.019035994985857427,0.2855399247878614,Not statistically significant
+gross_monthly_median,National University of Singapore,Singapore University of Technology and Design,3700.0,4000.0,-300.0,4769.5,0.0032366441323678254,0.048549661985517384,Statistically significant
+gross_monthly_median,Singapore Institute of Technology,Singapore Management University,3500.0,4000.0,-500.0,14695.5,4.3892377736703446e-14,6.583856660505517e-13,Statistically significant
+gross_monthly_median,Singapore Institute of Technology,Singapore University of Social Sciences,3500.0,3500.0,0.0,8117.5,0.9118110225889149,1.0,Not statistically significant
+gross_monthly_median,Singapore Institute of Technology,Singapore University of Technology and Design,3500.0,4000.0,-500.0,2529.0,4.796911549724627e-07,7.19536732458694e-06,Statistically significant
+gross_monthly_median,Singapore Management University,Singapore University of Social Sciences,4000.0,3500.0,500.0,5099.5,3.858519192348818e-06,5.787778788523227e-05,Statistically significant
+gross_monthly_median,Singapore Management University,Singapore University of Technology and Design,4000.0,4000.0,0.0,2383.5,0.9528037757444147,1.0,Not statistically significant
+gross_monthly_median,Singapore University of Social Sciences,Singapore University of Technology and Design,3500.0,4000.0,-500.0,308.0,9.05958652226254e-06,0.0001358937978339381,Statistically significant
+career_value_index,Nanyang Technological University,National University of Singapore,0.6725225930057582,0.7178195484793147,-0.0452969554735565,75636.0,1.0550361418947511e-07,1.5825542128421265e-06,Statistically significant
+career_value_index,Nanyang Technological University,Singapore Institute of Technology,0.6725225930057582,0.7158939406524363,-0.04337134764667805,65398.0,0.0014244612654407264,0.021366918981610895,Statistically significant
+career_value_index,Nanyang Technological University,Singapore Management University,0.6725225930057582,0.7583440045174497,-0.08582141151169143,16251.0,1.2448278675598532e-20,1.8672418013397798e-19,Statistically significant
+career_value_index,Nanyang Technological University,Singapore University of Social Sciences,0.6725225930057582,0.6900030550426367,-0.017480462036878475,9861.0,0.584911185158332,1.0,Not statistically significant
+career_value_index,Nanyang Technological University,Singapore University of Technology and Design,0.6725225930057582,0.7341064201292528,-0.06158382712349453,4032.0,5.129500383497714e-05,0.000769425057524657,Statistically significant
+career_value_index,National University of Singapore,Singapore Institute of Technology,0.7178195484793147,0.7158939406524363,0.0019256078268784504,79928.0,0.0572273721921274,0.8584105828819111,Not statistically significant
+career_value_index,National University of Singapore,Singapore Management University,0.7178195484793147,0.7583440045174497,-0.040524456038134926,22899.0,7.209379019722612e-08,1.0814068529583917e-06,Statistically significant
+career_value_index,National University of Singapore,Singapore University of Social Sciences,0.7178195484793147,0.6900030550426367,0.027816493436678025,12248.0,0.021783941023462393,0.3267591153519359,Not statistically significant
+career_value_index,National University of Singapore,Singapore University of Technology and Design,0.7178195484793147,0.7341064201292528,-0.01628687164993803,5625.0,0.07579118210344034,1.0,Not statistically significant
+career_value_index,Singapore Institute of Technology,Singapore Management University,0.7158939406524363,0.7583440045174497,-0.04245006386501338,16109.0,4.973446986478125e-11,7.460170479717188e-10,Statistically significant
+career_value_index,Singapore Institute of Technology,Singapore University of Social Sciences,0.7158939406524363,0.6900030550426367,0.025890885609799574,9011.0,0.17801549797149718,1.0,Not statistically significant
+career_value_index,Singapore Institute of Technology,Singapore University of Technology and Design,0.7158939406524363,0.7341064201292528,-0.01821247947681648,4105.0,0.019456573518170088,0.2918486027725513,Not statistically significant
+career_value_index,Singapore Management University,Singapore University of Social Sciences,0.7583440045174497,0.6900030550426367,0.06834094947481295,5447.0,1.7624917421134525e-08,2.6437376131701787e-07,Statistically significant
+career_value_index,Singapore Management University,Singapore University of Technology and Design,0.7583440045174497,0.7341064201292528,0.024237584388196898,2736.0,0.21495923771640513,1.0,Not statistically significant
+career_value_index,Singapore University of Social Sciences,Singapore University of Technology and Design,0.6900030550426367,0.7341064201292528,-0.04410336508661605,368.0,0.00012819697414197029,0.0019229546121295542,Statistically significant

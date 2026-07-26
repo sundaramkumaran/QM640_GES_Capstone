@@ -1,0 +1,4 @@
+Target Variable,Source Variable,Top Quartile Threshold,Valid Records,High Outcome Count,High Outcome Percent,Non-High Outcome Count,Non-High Outcome Percent
+high_employment,employment_rate_overall,96.6,1445,362,25.05,1083,74.95
+high_salary,gross_monthly_median,4107.0,1445,362,25.05,1083,74.95
+high_career_value,career_value_index,0.7759132005865413,1445,362,25.05,1083,74.95

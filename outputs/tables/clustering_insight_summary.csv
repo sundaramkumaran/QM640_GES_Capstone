@@ -1,0 +1,5 @@
+Analysis Area,What Was Done,Why It Matters,Relevant RQ
+Cluster feature design,"Used overall employment, full-time permanent employment, median salary, and salary IQR as clustering features","Captures employment, salary, and salary-spread dimensions without directly clustering on the Career Value Index",RQ5
+Cluster selection,"Evaluated k values from 2 to 8 using inertia, silhouette score, and Calinski-Harabasz score",Provides evidence for selecting the number of programme outcome segments,RQ5
+Cluster profiling,"Summarized each cluster using median employment, salary, salary spread, and Career Value Index",Converts mathematical clusters into interpretable employability-salary profiles,RQ5
+Cluster distribution,Generated university and year distributions by cluster,Shows whether clusters are associated with institutional or time-based patterns,RQ5

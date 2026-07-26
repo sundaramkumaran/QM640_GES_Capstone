@@ -1,0 +1,6 @@
+EDA Area,Completed,Main Outputs,Relevant RQ,Report Use
+Dataset Coverage,Yes,"Coverage summary, records by year, records by university, top schools","RQ1, RQ2",Data description and dataset suitability
+Missing Value Pattern,Yes,"Missing pattern summary, missingness by year, missingness by university",All RQs,"Data cleaning, limitations, modelling readiness"
+Univariate Analysis,Yes,"Descriptive summary, histograms, boxplots","RQ1, RQ3, RQ4",Variable distribution and outlier interpretation
+Bivariate Analysis,Yes,"Year trends, university comparisons, scatter plots, correlation summary","RQ1, RQ2, RQ3",Preliminary trend and relationship findings
+Multivariate Analysis,Yes,"Correlation matrix, strong correlation pairs, university profile heatmap","RQ3, RQ4, RQ5",Feature selection and model preparation

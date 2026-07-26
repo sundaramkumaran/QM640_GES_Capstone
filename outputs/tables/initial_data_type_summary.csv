@@ -1,0 +1,13 @@
+Column Name,Data Type,Non-Null Count,Missing Count,Missing Percent
+year,int64,1550,0,0.0
+university,object,1550,0,0.0
+school,object,1550,0,0.0
+degree,object,1550,0,0.0
+employment_rate_overall,object,1550,0,0.0
+employment_rate_ft_perm,object,1550,0,0.0
+basic_monthly_mean,object,1550,0,0.0
+basic_monthly_median,object,1550,0,0.0
+gross_monthly_mean,object,1550,0,0.0
+gross_monthly_median,object,1550,0,0.0
+gross_mthly_25_percentile,object,1550,0,0.0
+gross_mthly_75_percentile,object,1550,0,0.0

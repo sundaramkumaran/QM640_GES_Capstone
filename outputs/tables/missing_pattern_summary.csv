@@ -1,0 +1,4 @@
+Missing Pattern,Record Count,Record Percent
+Rows with all key employment/salary outcomes missing,105,6.77
+Rows with at least one key employment/salary outcome missing,105,6.77
+Rows complete for all key employment/salary outcomes,1445,93.23

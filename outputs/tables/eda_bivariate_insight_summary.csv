@@ -1,0 +1,5 @@
+Figure/Table Reference,What it Shows,Key Insight,Why it Matters,Decision / Next Step
+Table: bivariate_year_trend_summary,"Year-level trends for employment, salary, salary spread, and career value",Shows how graduate outcomes change over time,Supports RQ1 trend analysis,Use trend results to discuss changes from 2013 to 2024
+Table: bivariate_university_outcome_summary,"Median employment, salary, and career-value outcomes by university",Shows institutional variation in graduate outcomes,Supports RQ2 group comparison,Use statistical testing to evaluate whether differences are significant
+Scatter plots,"Relationships between employment, salary, salary spread, and career value",Shows whether variables move together or vary independently,Supports RQ3 driver analysis and feature selection,Use correlation and regression to quantify relationships
+Table: bivariate_correlation_summary,Pairwise numeric relationships among key variables,"Identifies early relationships among employment, salary, and career-value indicators","Supports feature selection for regression, classification, and clustering",Use stronger relationships as candidate predictors in modelling

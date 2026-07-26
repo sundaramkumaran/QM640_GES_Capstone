@@ -1,0 +1,3 @@
+Model,Purpose,Target Variable,Main Feature Groups,Interpretation Note,Relevant RQ
+Model 1: Median Gross Monthly Salary Regression,Identify factors associated with programme-level median gross monthly salary,gross_monthly_median,"Year, employment rates, employment premium, salary spread, university",Used as an explanatory model for salary outcome patterns,RQ3
+Model 2: Career Value Index Association Regression,"Examine how employment, salary, and stability components relate to Career Value Index",career_value_index,"Year, employment rates, salary, salary spread, university",Diagnostic association model because the target is a constructed index,RQ3

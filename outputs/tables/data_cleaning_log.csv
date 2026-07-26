@@ -1,0 +1,5 @@
+Cleaning Step,Variables Affected,Treatment Applied,Rationale
+Column name standardization,All columns,Converted names to lowercase and replaced spaces/special separators with underscores,Improves consistency and reduces coding errors
+Numeric type conversion,"year, employment_rate_overall, employment_rate_ft_perm, basic_monthly_mean, basic_monthly_median, gross_monthly_mean, gross_monthly_median, gross_mthly_25_percentile, gross_mthly_75_percentile",Removed commas/percent symbols and converted values to numeric format,"Required for statistical analysis, visualization, and modelling"
+Categorical text cleanup,"university, school, degree",Removed leading and trailing spaces,Prevents duplicate category issues caused by spacing
+Duplicate check,All columns,Detected 0 duplicate rows,Duplicate records can bias descriptive statistics and model training

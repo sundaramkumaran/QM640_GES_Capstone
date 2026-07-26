@@ -1,0 +1,4 @@
+cluster,record_count,median_overall_employment,median_ft_perm_employment,median_gross_salary,median_salary_iqr,median_career_value_index,record_percent
+1,324,94.9,91.1,4781.5,1300.0,0.788190284408632,22.42
+2,651,94.9,89.2,3500.0,600.0,0.7426083679699186,45.05
+3,470,84.75,68.25,3362.5,700.0,0.5992391518501023,32.53

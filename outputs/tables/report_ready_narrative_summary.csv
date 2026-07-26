@@ -1,0 +1,5 @@
+Report Section,Output File,Purpose
+Executive Summary,executive_summary.txt,Provides a concise overview of the full project and key findings
+Findings by Research Question,research_question_findings.txt,Maps results directly to RQ1 through RQ5
+Limitations,limitations_summary.txt,Summarizes key limitations and interpretation cautions
+Recommendations,recommendations_summary.txt,Provides stakeholder-oriented recommendations

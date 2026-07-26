@@ -1,0 +1,4 @@
+Model Area,Target Variable,Purpose,Feature Design Note,Relevant RQ
+High employment classification,high_employment,Identify programme-year records in the top quartile of overall employment rate,Direct overall employment rate is excluded from the predictors,RQ4
+High salary classification,high_salary,Identify programme-year records in the top quartile of median gross monthly salary,Direct median gross salary is excluded from the predictors,RQ4
+High career value classification,high_career_value,Identify programme-year records in the top quartile of Career Value Index,Career Value Index is excluded from predictors; component variables are used for diagnostic classification,RQ4

@@ -1,0 +1,26 @@
+Variable Name,Source Type,Definition,Datatype,Allowed Values / Range,Missing Count,Missing Percent,Missing Values Handling Notes
+year,Original,Survey year for the programme-level graduate employment outcome.,Numeric,"2,013.00 to 2,024.00",0,0.0,No missing values expected. Used as a time variable.
+university,Original,Name of the Singapore autonomous university.,Categorical/Text,6 unique values,0,0.0,No missing values expected. Used as a grouping variable.
+school,Original,"School, college, or faculty associated with the degree programme.",Categorical/Text,78 unique values,0,0.0,No missing values expected. Used as a grouping variable.
+degree,Original,Name of the degree programme reported in the Graduate Employment Survey.,Categorical/Text,419 unique values,0,0.0,No missing values expected. Used as a programme identifier.
+employment_rate_overall,Original,Percentage of graduates who were employed overall.,Numeric,55.20 to 100.00,105,6.77,Placeholder values such as 'na' and 'N.A.' converted to missing. Analyses use available valid values.
+employment_rate_ft_perm,Original,Percentage of graduates who were employed in full-time permanent employment.,Numeric,14.30 to 100.00,105,6.77,Placeholder values such as 'na' and 'N.A.' converted to missing. Analyses use available valid values.
+basic_monthly_mean,Original,Mean basic monthly salary reported for graduates.,Numeric,"2,000.00 to 7,051.00",105,6.77,Placeholder values converted to missing. Used only where valid numeric values are available.
+basic_monthly_median,Original,Median basic monthly salary reported for graduates.,Numeric,"1,750.00 to 7,000.00",105,6.77,Placeholder values converted to missing. Used only where valid numeric values are available.
+gross_monthly_mean,Original,Mean gross monthly salary reported for graduates.,Numeric,"2,100.00 to 7,244.00",105,6.77,Placeholder values converted to missing. Used only where valid numeric values are available.
+gross_monthly_median,Original,Median gross monthly salary reported for graduates.,Numeric,"1,800.00 to 7,000.00",105,6.77,Placeholder values converted to missing. Used only where valid numeric values are available.
+gross_mthly_25_percentile,Original,25th percentile of gross monthly salary.,Numeric,"1,500.00 to 6,500.00",105,6.77,Placeholder values converted to missing. Used only where valid numeric values are available.
+gross_mthly_75_percentile,Original,75th percentile of gross monthly salary.,Numeric,"2,500.00 to 9,967.00",105,6.77,Placeholder values converted to missing. Used only where valid numeric values are available.
+all_key_outcomes_missing,Engineered,Project variable used for analysis.,Numeric,0.00 to 1.00,0,0.0,Handled based on analysis requirement.
+any_key_outcome_missing,Engineered,Project variable used for analysis.,Numeric,0.00 to 1.00,0,0.0,Handled based on analysis requirement.
+salary_iqr,Engineered,Engineered salary spread measure calculated as 75th percentile salary minus 25th percentile salary.,Numeric,"0.00 to 5,817.00",105,6.77,Missing when percentile salary values are missing.
+salary_premium,Engineered,Engineered measure calculated as gross monthly mean salary minus gross monthly median salary.,Numeric,"-491.00 to 2,139.00",105,6.77,Missing when gross mean or median salary values are missing.
+employment_premium,Engineered,Engineered measure calculated as overall employment rate minus full-time permanent employment rate.,Numeric,0.00 to 71.40,105,6.77,Missing when employment rate values are missing.
+salary_iqr_norm,Engineered,Normalized salary spread used to construct the stability score.,Numeric,0.00 to 1.00,105,6.77,Missing when salary_iqr is missing.
+stability_score,Engineered,Engineered stability-oriented measure where lower salary spread indicates greater stability.,Numeric,0.00 to 1.00,105,6.77,Missing when salary_iqr is missing.
+overall_employment_score,Engineered,Normalized overall employment rate used in the Graduate Career Value Index.,Numeric,0.00 to 1.00,105,6.77,Missing when overall employment rate is missing.
+ft_perm_employment_score,Engineered,Normalized full-time permanent employment rate used in the Graduate Career Value Index.,Numeric,0.00 to 1.00,105,6.77,Missing when full-time permanent employment rate is missing.
+median_salary_score,Engineered,Normalized median gross monthly salary used in the Graduate Career Value Index.,Numeric,0.00 to 1.00,105,6.77,Missing when median salary is missing.
+stability_score_norm,Engineered,Normalized stability score used in the Graduate Career Value Index.,Numeric,0.00 to 1.00,105,6.77,Missing when stability score is missing.
+career_value_index,Engineered,"Composite programme-level decision-support measure combining employment, full-time permanent employment, median salary, and stability.",Numeric,0.31 to 0.97,105,6.77,Missing when one or more GCVI component values are missing.
+analysis_complete_case,Engineered,Boolean indicator showing whether a record has complete values for key analysis variables.,Numeric,0.00 to 1.00,0,0.0,Used to identify records suitable for complete-case analysis.

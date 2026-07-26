@@ -1,0 +1,19 @@
+Variable 1,Variable 2,Correlation,Absolute Correlation
+salary_iqr,stability_score,-1.0000000000000013,1.0000000000000013
+gross_monthly_mean,gross_mthly_75_percentile,0.9784891874400952,0.9784891874400952
+gross_monthly_median,gross_mthly_25_percentile,0.9675952892324295,0.9675952892324295
+gross_monthly_mean,gross_monthly_median,0.9626146466845337,0.9626146466845337
+gross_monthly_median,gross_mthly_75_percentile,0.9364960055767484,0.9364960055767484
+gross_monthly_mean,gross_mthly_25_percentile,0.9294300393093062,0.9294300393093062
+employment_rate_ft_perm,career_value_index,0.9125153410365157,0.9125153410365157
+employment_rate_ft_perm,employment_premium,-0.8876551818826623,0.8876551818826623
+gross_mthly_25_percentile,gross_mthly_75_percentile,0.8850790312536525,0.8850790312536525
+employment_rate_overall,career_value_index,0.8590260495849407,0.8590260495849407
+gross_mthly_75_percentile,salary_iqr,0.7766779219956028,0.7766779219956028
+gross_mthly_75_percentile,stability_score,-0.7766779219956016,0.7766779219956016
+employment_rate_overall,employment_rate_ft_perm,0.7176682176477128,0.7176682176477128
+employment_premium,career_value_index,-0.6750025114854247,0.6750025114854247
+gross_monthly_mean,salary_iqr,0.6741832560175508,0.6741832560175508
+gross_monthly_mean,stability_score,-0.6741832560175502,0.6741832560175502
+salary_iqr,salary_premium,0.6080792722215844,0.6080792722215844
+salary_premium,stability_score,-0.6080792722215838,0.6080792722215838

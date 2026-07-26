@@ -1,0 +1,20 @@
+# Restore Full Analysis Checkpoint
+
+import pickle
+from pathlib import Path
+
+PROJECT_ROOT = Path.cwd()
+CHECKPOINT_DIR = PROJECT_ROOT / "checkpoints"
+
+checkpoint_file = CHECKPOINT_DIR / "checkpoint_full_analysis_completed.pkl"
+
+with open(checkpoint_file, "rb") as file:
+    checkpoint_data = pickle.load(file)
+
+for variable_name, variable_value in checkpoint_data["saved_variables"].items():
+    globals()[variable_name] = variable_value
+
+print("Checkpoint restored successfully.")
+print("Restored stage:", checkpoint_data["checkpoint_stage"])
+print("Created at:", checkpoint_data["created_at"])
+print("Variables restored:", len(checkpoint_data["saved_variables"]))

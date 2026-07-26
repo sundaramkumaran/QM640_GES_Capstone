@@ -1,0 +1,13 @@
+Target Variable,Model,True Negative,False Positive,False Negative,True Positive
+high_employment,Baseline Majority Class,271,0,91,0
+high_employment,Logistic Regression,269,2,2,89
+high_employment,Decision Tree,266,5,10,81
+high_employment,Random Forest,270,1,18,73
+high_salary,Baseline Majority Class,271,0,91,0
+high_salary,Logistic Regression,252,19,14,77
+high_salary,Decision Tree,241,30,20,71
+high_salary,Random Forest,263,8,19,72
+high_career_value,Baseline Majority Class,271,0,91,0
+high_career_value,Logistic Regression,271,0,2,89
+high_career_value,Decision Tree,266,5,6,85
+high_career_value,Random Forest,268,3,6,85

@@ -1,0 +1,10 @@
+Target Variable,Result Type,Split Strategy,Model,Accuracy,Precision,Recall,F1 Score,ROC AUC
+high_career_value,Part 12 preliminary feature set,Original Part 12 split,Logistic Regression,0.994475138121547,1.0,0.978021978021978,0.9888888888888889,0.999959450143952
+high_employment,Part 12 preliminary feature set,Original Part 12 split,Logistic Regression,0.988950276243094,0.978021978021978,0.978021978021978,0.978021978021978,0.9988240541746077
+high_salary,Part 12 preliminary feature set,Original Part 12 split,Random Forest,0.925414364640884,0.9,0.7912087912087912,0.8421052631578947,0.9598556425124691
+high_career_value,Part 13 leakage-controlled feature set - Degree-grouped context-only split,Degree-grouped context-only split,Logistic Regression,0.7913486005089059,0.6057692307692307,0.6057692307692307,0.6057692307692307,0.8199194836305563
+high_career_value,Part 13 leakage-controlled feature set - Random stratified context-only split,Random stratified context-only split,Logistic Regression,0.8121546961325967,0.592,0.8131868131868132,0.6851851851851852,0.9022748469242934
+high_employment,Part 13 leakage-controlled feature set - Degree-grouped context-only split,Degree-grouped context-only split,Logistic Regression,0.7302798982188295,0.48175182481751827,0.6534653465346535,0.5546218487394958,0.75183100501831
+high_employment,Part 13 leakage-controlled feature set - Random stratified context-only split,Random stratified context-only split,Logistic Regression,0.7596685082872928,0.5185185185185185,0.6153846153846154,0.5628140703517588,0.7949799278212563
+high_salary,Part 13 leakage-controlled feature set - Degree-grouped context-only split,Degree-grouped context-only split,Logistic Regression,0.8371501272264631,0.6349206349206349,0.8163265306122449,0.7142857142857143,0.9078346592874438
+high_salary,Part 13 leakage-controlled feature set - Random stratified context-only split,Random stratified context-only split,Logistic Regression,0.8756906077348067,0.6825396825396826,0.945054945054945,0.7926267281105991,0.9573415514374924
