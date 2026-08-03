@@ -4,4 +4,4 @@ Overall employment,Positive,1445,0.859,p < .001,0.869,p < .001,Strong,General em
 Median gross monthly salary,Positive,1445,0.522,p < .001,0.505,p < .001,Moderate,Higher median salary should increase CVI.
 Salary stability score,Positive,1445,-0.115,p < .001,-0.088,p < .001,Weak,Higher salary stability should increase CVI.
 Salary IQR,Negative,1445,0.115,p < .001,0.088,p < .001,Weak,Wider salary spread should reduce salary stability.
-Employment premium,Negative / caution,1445,-0.675,p < .001,-0.738,p < .001,Moderate,A larger gap between overall and FT permanent employment may indicate weaker stable employment.
+Employment premium,Negative / caution,1445,-0.675,p < .001,-0.738,p < .001,Moderate,A larger gap between overall and full-time permanent employment may indicate weaker stable employment.
