@@ -1,7 +1,7 @@
 Item,Value
 Dataset name,"Graduate Employment Survey - NTU, NUS, SIT, SMU, SUSS & SUTD"
 Source,"Ministry of Education, Singapore via data.gov.sg"
-Unit of analysis,University-degree-year / programme-year observation
+Unit of analysis,University-degree-year / program-year observation
 Number of records before cleaning,"1,550"
 Number of variables before cleaning,12
 Number of records after feature engineering,"1,550"
@@ -9,7 +9,7 @@ Number of variables after feature engineering,25
 Time period,2013 to 2024
 Number of universities,6
 Number of schools,78
-Number of degree programme names,419
+Number of degree program names,419
 Primary salary outcome,gross_monthly_median
 Primary employment outcome,employment_rate_overall
 Stability-related outcome,employment_rate_ft_perm and salary_iqr

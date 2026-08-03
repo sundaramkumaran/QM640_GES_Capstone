@@ -1,5 +1,5 @@
-The analysis has several limitations. First, the dataset is aggregated at the programme-year level, so the findings cannot be interpreted as individual graduate-level predictions. Second, the analysis is observational, which means regression and classification results should be interpreted as associations rather than causal effects.
+The analysis has several limitations. First, the dataset is aggregated at the program-year level, so the findings cannot be interpreted as individual graduate-level predictions. Second, the analysis is observational, which means regression and classification results should be interpreted as associations rather than causal effects.
 
 Third, 105 records had missing values in key outcome fields and were excluded from complete-case modelling. Fourth, some preliminary classification models used engineered variables that were related to the target definitions, which may have inflated performance. This was addressed by performing leakage-controlled validation using only year, university, school, and degree as predictors.
 
-Finally, the clustering analysis provides descriptive programme profiles rather than causal categories or rankings. The clusters should be used for interpretation and decision support, not as definitive quality labels.
+Finally, the clustering analysis provides descriptive program profiles rather than causal categories or rankings. The clusters should be used for interpretation and decision support, not as definitive quality labels.

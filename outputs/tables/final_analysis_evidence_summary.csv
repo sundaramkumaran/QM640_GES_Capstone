@@ -4,4 +4,4 @@ EDA,"Coverage, univariate, bivariate, and multivariate summaries",Salary increas
 Statistical testing,Kruskal-Wallis and pairwise comparisons,Significant university-level differences with modest effect sizes,RQ2,Inferential results
 Regression,Salary regression and Career Value Index diagnostic model,Salary regression achieved R² = 0.58,RQ3,Driver analysis
 Classification,Preliminary and leakage-controlled classification models,Leakage-controlled high-salary model achieved F1 = 0.71,RQ4,Predictive modelling evidence
-Clustering,K-Means programme profile segments,Recommended k = 3; three interpretable employability-salary profiles,RQ5,Segmentation results
+Clustering,K-Means program profile segments,Recommended k = 3; three interpretable employability-salary profiles,RQ5,Segmentation results

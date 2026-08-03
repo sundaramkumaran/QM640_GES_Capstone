@@ -1,5 +1,5 @@
 Area,Limitation,Impact,Next Step
-Data granularity,The dataset is aggregated at programme-year level.,Individual graduate-level prediction cannot be claimed.,State clearly that all findings are programme-level.
+Data granularity,The dataset is aggregated at program-year level.,Individual graduate-level prediction cannot be claimed.,State clearly that all findings are program-level.
 Causality,The analysis is observational.,Regression and classification results are associational.,Avoid causal wording such as 'causes' or 'leads to'.
 Missing values,105 records have missing key outcome values.,"Complete-case analysis uses 1,445 records.",Report missing-value handling clearly.
 Class imbalance,High-outcome classes represent about 25% of records.,Accuracy alone is not sufficient.,"Report F1, recall, precision, ROC AUC, and baseline comparison."

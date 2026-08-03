@@ -1,9 +1,9 @@
 Finding Area,Main Finding,Why It Matters,Report Section
-Dataset coverage,"The dataset contains 1,550 programme-year records from 2013 to 2024.",The dataset has sufficient year coverage for trend analysis.,Data Description / EDA Results
+Dataset coverage,"The dataset contains 1,550 program-year records from 2013 to 2024.",The dataset has sufficient year coverage for trend analysis.,Data Description / EDA Results
 Complete-case availability,"1,445 records, or 93.23%, are complete for key outcome variables.","The dataset is suitable for EDA, statistical testing, and preliminary modelling.",Data Cleaning / Limitations
-Salary trend,"Median gross monthly salary increased from 3,100 in 2013 to 4,400 in 2024.",This supports the presence of long-term salary growth across programme-year records.,EDA Results / RQ1
+Salary trend,"Median gross monthly salary increased from 3,100 in 2013 to 4,400 in 2024.",This supports the presence of long-term salary growth across program-year records.,EDA Results / RQ1
 Employment stability,Full-time permanent employment dropped to 70.50% in 2020 before recovering in 2021 and 2022.,Employment stability varies more than overall employment and should be analyzed separately.,EDA Results / RQ1
 University differences,Median salary and career value differ visibly across universities.,"This provides preliminary evidence for group comparison, but statistical testing is still required.",EDA Results / RQ2
 Career value drivers,Career value is strongly correlated with full-time permanent employment and overall employment.,This supports the interpretation of career value as a multidimensional employment-salary measure.,EDA Results / RQ3
 Variable redundancy,Several salary variables are highly correlated with one another.,Feature selection is needed before regression and machine learning to reduce multicollinearity.,Modelling Approach
-Segmentation readiness,"Employment, salary, salary spread, stability, and career value provide distinct analytical dimensions.",These variables can support clustering and programme segmentation.,Modelling Approach / RQ5
+Segmentation readiness,"Employment, salary, salary spread, stability, and career value provide distinct analytical dimensions.",These variables can support clustering and program segmentation.,Modelling Approach / RQ5
