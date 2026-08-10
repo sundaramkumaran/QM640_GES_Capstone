@@ -1,0 +1,6 @@
+CVI Version,Overall Employment Score,Full-Time Permanent Employment Score,Median Salary Score,Salary Stability Score
+Current CVI,0.3,0.3,0.25,0.15
+Equal-weight CVI,0.25,0.25,0.25,0.25
+Employment-heavy CVI,0.35,0.35,0.2,0.1
+Salary-heavy CVI,0.25,0.25,0.35,0.15
+Stability-heavy CVI,0.25,0.25,0.2,0.3

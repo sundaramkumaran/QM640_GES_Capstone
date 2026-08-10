@@ -1,0 +1,16 @@
+CVI Version,Cluster,Median CVI
+Current CVI,1.0,0.788
+Current CVI,2.0,0.743
+Current CVI,3.0,0.599
+Equal-weight CVI,1.0,0.774
+Equal-weight CVI,2.0,0.744
+Equal-weight CVI,3.0,0.621
+Employment-heavy CVI,1.0,0.811
+Employment-heavy CVI,2.0,0.769
+Employment-heavy CVI,3.0,0.604
+Salary-heavy CVI,1.0,0.751
+Salary-heavy CVI,2.0,0.687
+Salary-heavy CVI,3.0,0.565
+Stability-heavy CVI,1.0,0.786
+Stability-heavy CVI,2.0,0.771
+Stability-heavy CVI,3.0,0.65

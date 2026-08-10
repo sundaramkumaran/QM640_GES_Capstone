@@ -1,0 +1,6 @@
+CVI Version,Comparison Type,Pearson r,Pearson p-value,Spearman rho,Spearman p-value,Kendall tau,Kendall p-value,Top Quartile Overlap Count,Top Quartile Overlap %,Mean Absolute Rank Change
+Current CVI,Baseline,1.0,p < .001,1.0,p < .001,1.0,p < .001,362,100.0,0.0
+Equal-weight CVI,Alternative,0.996,p < .001,0.995,p < .001,0.949,p < .001,347,95.86,26.27
+Employment-heavy CVI,Alternative,0.997,p < .001,0.997,p < .001,0.955,p < .001,344,95.03,23.12
+Salary-heavy CVI,Alternative,0.986,p < .001,0.987,p < .001,0.905,p < .001,337,93.09,48.92
+Stability-heavy CVI,Alternative,0.985,p < .001,0.984,p < .001,0.902,p < .001,326,90.06,51.73
